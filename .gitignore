@@ -1,0 +1,84 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# IDEs and Editors
+.vscode/
+.idea/
+.vscode-test/
+*.code-workspace
+.vs/
+
+# Logs
+*.log
+logs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Generated files
+*.generated.cs
+*.designer.cs
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Coverage and Testing
+coverage/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.testlog
+
+# Secrets and Keys
+appsettings.*.json
+appsettings.Development.json
+appsettings.local.json
+.env
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+*.pid
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+
+# Tool-specific files
+.vs/
+_ReSharper*/
+*.resharper
+.idea/
+project.lock.json
+project.fragment.lock.json
+**/project.lock.json
+# Rider files
+.idea/
+
+# Lock Files
+package-lock.json
+yarn.lock
+
+# Git-specific
+*.patch
+*.diff
+
