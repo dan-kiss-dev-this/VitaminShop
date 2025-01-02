@@ -3,6 +3,6 @@ source ./scripts/release-version.sh
 
 rm -rf ./backend/bin
 
-unzip -o backend-publish.zip -d ./
+unzip -o $ -d ./
 
 ./backend/bin/Release/net8.0/backend.dll

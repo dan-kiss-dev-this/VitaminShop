@@ -1,10 +1,6 @@
 #!/bin/bash
 source ./scripts/release-version.sh
 
-# TODO make this come from backend version
-RELEASE_VERSION="backend-1.0.0"
-RELEASE_ZIP_FILE="release/$RELEASE_VERSION.zip"
-
 if [ -f $RELEASE_ZIP_FILE ]; then
   rm $RELEASE_ZIP_FILE
 fi
