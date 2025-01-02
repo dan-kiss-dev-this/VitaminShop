@@ -1,5 +1,5 @@
 #!/bin/bash
-source ./scripts/release-version.sh
+source ./scripts/release-vars.sh
 
 if [ -f $RELEASE_ZIP_FILE ]; then
   rm $RELEASE_ZIP_FILE
@@ -10,7 +10,7 @@ dotnet publish -c Release -r linux-x64
 
 ZIP_NAME="tmp-backend-publish.zip"
 
-zip -r $ZIP_NAME backend/bin/Release/net8.0/linux-arm64/publish/
+zip -r $ZIP_NAME backend/bin/Release/net8.0/$HOST_ARCHITECTURE/publish/
 
 if ! [ -d ./release ]; then 
   mkdir ./release

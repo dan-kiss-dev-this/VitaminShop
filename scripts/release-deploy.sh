@@ -1,8 +1,12 @@
 #!/bin/bash
-source ./scripts/release-version.sh
+source ./scripts/release-vars.sh
 
 rm -rf ./backend/bin
 
-unzip -o $ -d ./
+unzip -o $RELEASE_ZIP_FILE -d ./
 
-./backend/bin/Release/net8.0/backend.dll
+SCRIPT_TO_RUN="./backend/bin/Release/net8.0/$HOST_ARCHITECTURE/publish/backend.dll"
+
+chmod +x $SCRIPT_TO_RUN
+
+eval $SCRIPT_TO_RUN
