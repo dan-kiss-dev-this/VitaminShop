@@ -47,10 +47,13 @@ export default function VitaminsGallery() {
                   />
                 </div>
                 <div className="card-content">
-                  <h2 className="vitamin-name">{vitamin.title}</h2>
-                  <span className="vitamin-category-tag">
-                    {vitamin.category}
-                  </span>
+                  <h2 className="vitamin-name">
+                    {vitamin.title}{" "}
+                    <div className="vitamin-category-tag">
+                      {vitamin.category}
+                    </div>
+                  </h2>
+
                   <p className="vitamin-brief">{vitamin.description}</p>
                 </div>
               </Link>

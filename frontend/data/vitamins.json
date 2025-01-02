@@ -4,7 +4,7 @@
     "image": "/vitamins/aloe_vera.png",
     "title": "Aloe Vera",
     "description": "A succulent plant species known for its healing properties, particularly for skin conditions and digestive health.",
-    "category": "Herbal",
+    "category": "Herbs",
     "purpose": "Supports skin health, digestive function, and immune system"
   },
   {
@@ -12,7 +12,7 @@
     "image": "/vitamins/ashwaganda.png",
     "title": "Ashwagandha",
     "description": "An ancient medicinal herb used in traditional Indian Ayurvedic medicine.",
-    "category": "Adaptogenic Herbs",
+    "category": "Herbs",
     "purpose": "Reduces stress and anxiety, improves strength and muscle mass"
   },
   {
@@ -28,7 +28,7 @@
     "image": "/vitamins/beta_carotene.png",
     "title": "Beta Carotene",
     "description": "A plant-based pigment that the body converts into Vitamin A.",
-    "category": "Vitamins",
+    "category": "Multivitamins",
     "purpose": "Supports eye health, immune function, and skin health"
   },
   {
@@ -36,7 +36,7 @@
     "image": "/vitamins/bone_broth.png",
     "title": "Bone Broth",
     "description": "A nutrient-rich stock made from simmering animal bones and connective tissue.",
-    "category": "Protein",
+    "category": "Joint Support",
     "purpose": "Supports joint health, gut health, and immune system"
   },
   {
@@ -44,7 +44,7 @@
     "image": "/vitamins/calcium.png",
     "title": "Calcium",
     "description": "An essential mineral crucial for bone health and cellular function.",
-    "category": "Minerals",
+    "category": "Essential Minerals",
     "purpose": "Supports bone health, muscle function, and nerve signaling"
   },
   {
@@ -52,7 +52,7 @@
     "image": "/vitamins/chamomile.png",
     "title": "Chamomile",
     "description": "A daisy-like plant known for its calming and anti-inflammatory properties.",
-    "category": "Herbal",
+    "category": "Herbs",
     "purpose": "Promotes relaxation, sleep quality, and digestive health"
   },
   {
@@ -60,7 +60,7 @@
     "image": "/vitamins/chlorella.png",
     "title": "Chlorella",
     "description": "A nutrient-dense freshwater algae high in protein and vitamins.",
-    "category": "Algae",
+    "category": "Sport and Performance",
     "purpose": "Supports detoxification, immune function, and energy levels"
   },
   {
@@ -68,7 +68,7 @@
     "image": "/vitamins/chromium.png",
     "title": "Chromium",
     "description": "An essential trace mineral that helps regulate blood sugar.",
-    "category": "Minerals",
+    "category": "Essential Minerals",
     "purpose": "Supports blood sugar regulation and metabolism"
   },
   {
@@ -84,7 +84,7 @@
     "image": "/vitamins/cranberry.png",
     "title": "Cranberry",
     "description": "A fruit extract known for its urinary tract health benefits.",
-    "category": "Herbal",
+    "category": "Herbs",
     "purpose": "Supports urinary tract health and immune function"
   },
   {
@@ -92,7 +92,7 @@
     "image": "/vitamins/echinacea.png",
     "title": "Echinacea",
     "description": "A flowering plant used traditionally for immune support.",
-    "category": "Herbal",
+    "category": "Herbs",
     "purpose": "Supports immune system function and cold/flu prevention"
   },
   {
@@ -100,7 +100,7 @@
     "image": "/vitamins/elderberry.png",
     "title": "Elderberry",
     "description": "A dark purple berry known for its immune-boosting properties.",
-    "category": "Herbal",
+    "category": "Herbs",
     "purpose": "Supports immune system and respiratory health"
   },
   {
@@ -108,7 +108,7 @@
     "image": "/vitamins/fish_oil.png",
     "title": "Fish Oil",
     "description": "Oil derived from fatty fish, rich in omega-3 fatty acids.",
-    "category": "Fatty Acids",
+    "category": "Omega-3 Fatty Acids",
     "purpose": "Supports heart health, brain function, and reduces inflammation"
   },
   {
@@ -116,7 +116,7 @@
     "image": "/vitamins/folic_acid.png",
     "title": "Folic Acid",
     "description": "A B vitamin essential for cell growth and DNA synthesis.",
-    "category": "Vitamins",
+    "category": "B Complex Vitamins",
     "purpose": "Supports pregnancy health and red blood cell formation"
   },
   {
@@ -124,7 +124,7 @@
     "image": "/vitamins/garlic.png",
     "title": "Garlic",
     "description": "A medicinal plant known for its immune-boosting properties.",
-    "category": "Herbal",
+    "category": "Herbs",
     "purpose": "Supports immune system and heart health"
   },
   {
@@ -132,7 +132,7 @@
     "image": "/vitamins/ginger.png",
     "title": "Ginger",
     "description": "A root with powerful anti-inflammatory properties.",
-    "category": "Herbal",
+    "category": "Herbs",
     "purpose": "Supports digestive health and reduces inflammation"
   },
   {
@@ -140,7 +140,7 @@
     "image": "/vitamins/ginseng.png",
     "title": "Ginseng",
     "description": "An adaptogenic root used traditionally for energy and vitality.",
-    "category": "Adaptogenic Herbs",
+    "category": "Herbs",
     "purpose": "Supports energy levels, cognitive function, and stress response"
   },
   {
@@ -164,7 +164,7 @@
     "image": "/vitamins/iron.png",
     "title": "Iron",
     "description": "An essential mineral crucial for blood production.",
-    "category": "Minerals",
+    "category": "Essential Minerals",
     "purpose": "Supports oxygen transport and energy production"
   },
   {
@@ -196,7 +196,7 @@
     "image": "/vitamins/magnesium.png",
     "title": "Magnesium",
     "description": "An essential mineral involved in hundreds of biochemical reactions.",
-    "category": "Minerals",
+    "category": "Essential Minerals",
     "purpose": "Supports muscle and nerve function, energy production"
   },
   {
@@ -204,7 +204,7 @@
     "image": "/vitamins/melatonin.png",
     "title": "Melatonin",
     "description": "A hormone that regulates sleep-wake cycles.",
-    "category": "Hormones",
+    "category": "Sport and Performance",
     "purpose": "Supports sleep quality and circadian rhythm"
   },
   {
@@ -212,7 +212,7 @@
     "image": "/vitamins/milk_thistle.png",
     "title": "Milk Thistle",
     "description": "An herb known for its liver-protective properties.",
-    "category": "Herbal",
+    "category": "Herbs",
     "purpose": "Supports liver health and detoxification"
   },
   {
@@ -228,7 +228,7 @@
     "image": "/vitamins/potassium.png",
     "title": "Potassium",
     "description": "An essential mineral for heart, muscle, and nerve function.",
-    "category": "Minerals",
+    "category": "Essential Minerals",
     "purpose": "Supports heart health and muscle function"
   },
   {
@@ -236,7 +236,7 @@
     "image": "/vitamins/probiotics.png",
     "title": "Probiotics",
     "description": "Beneficial bacteria that support gut health.",
-    "category": "Digestive Health",
+    "category": "Probiotics",
     "purpose": "Supports digestive health and immune function"
   },
   {
@@ -244,7 +244,7 @@
     "image": "/vitamins/rhodiola.png",
     "title": "Rhodiola",
     "description": "An adaptogenic herb that helps the body adapt to stress.",
-    "category": "Adaptogenic Herbs",
+    "category": "Herbs",
     "purpose": "Supports stress response and energy levels"
   },
   {
@@ -252,7 +252,7 @@
     "image": "/vitamins/saw_palmetto.png",
     "title": "Saw Palmetto",
     "description": "A palm extract used traditionally for prostate health.",
-    "category": "Herbal",
+    "category": "Herbs",
     "purpose": "Supports prostate health and hormone balance"
   },
   {
@@ -260,7 +260,7 @@
     "image": "/vitamins/selenium.png",
     "title": "Selenium",
     "description": "An essential trace mineral with antioxidant properties.",
-    "category": "Minerals",
+    "category": "Essential Minerals",
     "purpose": "Supports thyroid function and immune system"
   },
   {
@@ -268,7 +268,7 @@
     "image": "/vitamins/spirulina.png",
     "title": "Spirulina",
     "description": "A blue-green algae rich in protein and nutrients.",
-    "category": "Algae",
+    "category": "Sport and Performance",
     "purpose": "Supports overall nutrition and immune function"
   },
   {
@@ -276,7 +276,7 @@
     "image": "/vitamins/st_johns_wart.png",
     "title": "St. John's Wort",
     "description": "An herb traditionally used for mood support.",
-    "category": "Herbal",
+    "category": "Herbs",
     "purpose": "Supports mood and emotional well-being"
   },
   {
@@ -284,7 +284,7 @@
     "image": "/vitamins/tumeric.png",
     "title": "Turmeric",
     "description": "A spice containing curcumin, known for anti-inflammatory properties.",
-    "category": "Herbal",
+    "category": "Herbs",
     "purpose": "Supports joint health and reduces inflammation"
   },
   {
@@ -292,7 +292,7 @@
     "image": "/vitamins/valerian.png",
     "title": "Valerian",
     "description": "An herb traditionally used for sleep support.",
-    "category": "Herbal",
+    "category": "Herbs",
     "purpose": "Supports sleep quality and relaxation"
   },
   {
@@ -300,7 +300,7 @@
     "image": "/vitamins/vitamin_a.png",
     "title": "Vitamin A",
     "description": "A fat-soluble vitamin essential for vision and immune function.",
-    "category": "Vitamins",
+    "category": "Multivitamins",
     "purpose": "Supports eye health, immune function, and skin health"
   },
   {
@@ -308,7 +308,7 @@
     "image": "/vitamins/vitamin_b7_biotin.png",
     "title": "Vitamin B7 (Biotin)",
     "description": "A B vitamin important for hair, skin, and nail health.",
-    "category": "Vitamins",
+    "category": "B Complex Vitamins",
     "purpose": "Supports hair, skin, and nail health"
   },
   {
@@ -316,7 +316,7 @@
     "image": "/vitamins/vitamin_b12.png",
     "title": "Vitamin B12",
     "description": "A B vitamin essential for red blood cell formation and nerve function.",
-    "category": "Vitamins",
+    "category": "B Complex Vitamins",
     "purpose": "Supports energy production and nervous system health"
   },
   {
@@ -324,7 +324,7 @@
     "image": "/vitamins/vitamin_c.png",
     "title": "Vitamin C",
     "description": "An essential vitamin with powerful antioxidant properties.",
-    "category": "Vitamins",
+    "category": "Antioxidants",
     "purpose": "Supports immune function and skin health"
   },
   {
@@ -332,7 +332,7 @@
     "image": "/vitamins/vitamin_d3.png",
     "title": "Vitamin D3",
     "description": "A fat-soluble vitamin important for bone health and immunity.",
-    "category": "Vitamins",
+    "category": "Multivitamins",
     "purpose": "Supports bone health and immune function"
   },
   {
@@ -340,7 +340,7 @@
     "image": "/vitamins/vitamin_e.png",
     "title": "Vitamin E",
     "description": "A fat-soluble vitamin with antioxidant properties.",
-    "category": "Vitamins",
+    "category": "Antioxidants",
     "purpose": "Supports skin health and antioxidant protection"
   },
   {
@@ -348,7 +348,7 @@
     "image": "/vitamins/vitamin_k.png",
     "title": "Vitamin K",
     "description": "A fat-soluble vitamin essential for blood clotting.",
-    "category": "Vitamins",
+    "category": "Multivitamins",
     "purpose": "Supports bone health and blood clotting"
   },
   {
@@ -356,7 +356,7 @@
     "image": "/vitamins/zinc.png",
     "title": "Zinc",
     "description": "An essential mineral important for immune function and wound healing.",
-    "category": "Minerals",
+    "category": "Essential Minerals",
     "purpose": "Supports immune function and wound healing"
   }
 ]

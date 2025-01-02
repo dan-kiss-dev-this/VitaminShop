@@ -5,30 +5,26 @@ const Features = () => {
     {
       name: "Omega-3 DHA/EPA",
       description:
-        "Essential fatty acids that support brain health, cognitive function, and reduce inflammation while promoting cardiovascular wellness.",
-      citations: "[1] [2]",
-      image: "/logos/logo.png",
+        "Essential fatty acids that support brain health and cardiovascular wellness while reducing inflammation.",
+      image: "/vitamins/fish_oil.png",
     },
     {
-      name: "Organic Lion's Mane Mushrooms",
+      name: "Bone Broth",
       description:
-        "Supports cognitive health, memory enhancement and neural growth factor production for improved mental clarity.",
-      citations: "[3] [4]",
-      image: "/logos/logo.png",
+        "Rich in collagen and minerals that support joint health, gut healing, and healthy skin.",
+      image: "/vitamins/bone_broth.png",
     },
     {
-      name: "Vitamin D3 + K2",
+      name: "Vitamin K",
       description:
-        "Crucial for immune function, mood regulation, and calcium absorption. K2 ensures optimal D3 utilization and bone health.",
-      citations: "[5] [6]",
-      image: "/logos/logo.png",
+        "Essential fat-soluble vitamin crucial for blood clotting, bone health, and calcium regulation.",
+      image: "/vitamins/vitamin_k.png",
     },
     {
-      name: "Magnesium L-Threonate",
+      name: "Elderberry",
       description:
-        "Superior form of magnesium that crosses the blood-brain barrier, supporting cognitive function, sleep quality, and stress reduction.",
-      citations: "[7] [8]",
-      image: "/logos/logo.png",
+        "Immune-supporting berry rich in antioxidants that may help reduce cold and flu symptoms.",
+      image: "/vitamins/elderberry.png",
     },
   ];
 
@@ -48,7 +44,6 @@ const Features = () => {
             <div className="feature-content">
               <h3 className="feature-name">{supplement.name}</h3>
               <p className="feature-description">{supplement.description}</p>
-              <p className="feature-citations">{supplement.citations}</p>
             </div>
             <div className="feature-image">
               <img src={supplement.image} alt={supplement.name} />

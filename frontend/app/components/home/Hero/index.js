@@ -3,9 +3,9 @@ import "./styles.css";
 
 const Hero = () => {
   const stats = [
-    { number: "50K+", label: "Happy Customers" },
-    { number: "95%", label: "Satisfaction Rate" },
-    { number: "12", label: "Premium Formulas" },
+    { number: "100K+", label: "Products Analyzed" },
+    { number: "15K+", label: "Expert Reviews" },
+    { number: "98%", label: "Customer Trust" },
   ];
 
   return (
@@ -16,48 +16,25 @@ const Hero = () => {
 
       <div className="hero-container">
         <div className="hero-content">
-          {/* Enhanced Left Side */}
           <div className="hero-left">
             <div className="hero-badge">
-              <span>⭐️ Trusted by 50,000+ customers worldwide</span>
+              <span>🌿 Your Trusted Wellness Guide</span>
             </div>
 
             <h1>
-              <span className="gradient-text">Transform</span> Your Health
-              Journey
+              Find Your Perfect{" "}
+              <span className="gradient-text">Supplements</span> With Expert
+              Guidance
             </h1>
 
             <p className="hero-subtitle">
-              Experience our premium collection of science-backed supplements,
-              designed to elevate your mind, body, and spirit.
+              Navigate the world of vitamins with confidence. Get personalized
+              recommendations backed by scientific research and expert analysis.
             </p>
 
-            <div className="hero-features">
-              {[
-                "100% Natural Ingredients",
-                "Third-Party Tested",
-                "Expert Formulated",
-              ].map((feature, index) => (
-                <div key={index} className="feature-item">
-                  <svg
-                    className="checkmark"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                  >
-                    <path d="M20 6L9 17l-5-5" />
-                  </svg>
-                  <span>{feature}</span>
-                </div>
-              ))}
-            </div>
-
             <div className="hero-cta">
-              <button className="primary-button">
-                Discover Our Products
+              <a href="/vitamins" className="primary-button">
+                Explore Vitamins
                 <svg
                   width="20"
                   height="20"
@@ -68,10 +45,10 @@ const Hero = () => {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
-              </button>
+              </a>
               <div className="rating-badge">
                 <div className="stars">★★★★★</div>
-                <span>4.9/5 from 1,500+ reviews</span>
+                <span>4.9/5 from 2,000+ verified users</span>
               </div>
             </div>
 
@@ -85,39 +62,40 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Original Right Side with Product Grid */}
           <div className="hero-right">
             <div className="hero-image-grid">
               <div className="product-card featured">
                 <Image
-                  src="/logos/logo.png"
-                  alt="Mental Performance Supplement"
-                  width={240}
-                  height={240}
+                  src="/vitamins/bone_broth.png"
+                  alt="Personalized Vitamin Guide"
+                  width={200}
+                  height={200}
                   className="product-image"
                 />
-                <div className="product-label">Mental Focus</div>
+                <div className="product-label">
+                  Personalized Recommendations
+                </div>
                 <div className="product-glow"></div>
               </div>
               <div className="product-card">
                 <Image
-                  src="/logos/logo.png"
-                  alt="Energy Supplement"
-                  width={200}
-                  height={200}
+                  src="/vitamins/ashwaganda.png"
+                  alt="Daily Supplements"
+                  width={160}
+                  height={160}
                   className="product-image"
                 />
-                <div className="product-label">Daily Energy</div>
+                <div className="product-label">Daily Essentials</div>
               </div>
               <div className="product-card">
                 <Image
-                  src="/logos/logo.png"
-                  alt="Wellness Supplement"
-                  width={200}
-                  height={200}
+                  src="/vitamins/cranberry.png"
+                  alt="Specialty Supplements"
+                  width={160}
+                  height={160}
                   className="product-image"
                 />
-                <div className="product-label">Complete Wellness</div>
+                <div className="product-label">Specialty Formulas</div>
               </div>
             </div>
           </div>

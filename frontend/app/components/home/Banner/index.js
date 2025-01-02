@@ -17,14 +17,15 @@ const Banner = ({ type = "top" }) => {
     large: (
       <div className="banner-quote">
         <p className="quote-text">
-          "Vitamin Shop is motivation in a bottle for me. It's hands down the
-          best tool for helping me get into a deep creative flow-state."
+          "Vitamin Shop is motivation in a website for me. It's vitamins are
+          hands down the best tool for helping me get into a deep creative
+          flow-state."
         </p>
         <div className="author-container">
           <div className="author-avatar">
-            <img src="/api/placeholder/40/40" alt="Avatar" />
+            <img src="/avatar.jpeg" alt="Avatar" />
           </div>
-          <span className="author-name">John Smith, Product Designer</span>
+          <span className="author-name">Dan Kiss, Software Engineer</span>
         </div>
         <div className="wave wave-left"></div>
         <div className="wave wave-right"></div>

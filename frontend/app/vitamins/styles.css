@@ -1,12 +1,12 @@
 /* styles.css */
 .gallery-page {
   min-height: calc(100vh - var(--navbar-height, 64px));
-  background-color: #f9fafb;
+  background-color: #fff;
   padding: 40px 0;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -67,13 +67,15 @@
   font-weight: 600;
   color: #1a1a1a;
   margin-bottom: 8px;
-  display: -webkit-box;
+  display: flex;
+  align-items: center;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
 .vitamin-category-tag {
+  margin-left: 8px;
   display: inline-block;
   padding: 4px 8px;
   background-color: #f0f9ff;
