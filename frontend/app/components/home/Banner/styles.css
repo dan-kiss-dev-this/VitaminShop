@@ -10,7 +10,7 @@
 
 /* Top Banner */
 .top-banner {
-  background: linear-gradient(90deg, #4a90e2 0%, #43e2b6 50%, #4a90e2 100%);
+  background: linear-gradient(90deg, #2196f3 0%, #00e5c9 50%, #2196f3 100%);
   padding: 0.75rem;
 }
 
@@ -23,8 +23,8 @@
 /* Small Banner */
 .small-banner {
   background: linear-gradient(90deg, #ffd700 0%, #ffa07a 100%);
-  border-top: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #030303;
+  border-bottom: 1px solid #030303;
   padding: 1rem;
 }
 
@@ -37,10 +37,10 @@
 
 /* Large Banner */
 .large-banner {
-  background: linear-gradient(90deg, #ffb6c1 0%, #ffd700 50%, #98fb98 100%);
+  background: linear-gradient(90deg, #ffb6c1 0%, #f7e5a3 50%, #98fb98 100%);
   padding: 3rem 1rem;
-  border-top: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
+  border-top: 2px solid #030303;
+  border-bottom: 2px solid #030303;
 }
 
 .banner-quote {
@@ -51,9 +51,9 @@
 }
 
 .quote-text {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-style: italic;
-  color: #333;
+  color: #030303;
   margin-bottom: 1.5rem;
   font-family: serif;
 }
@@ -81,7 +81,7 @@
 .author-name {
   font-size: 1.1rem;
   margin-left: 8px;
-  color: #666;
+  color: #222;
 }
 
 /* Waves */

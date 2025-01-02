@@ -1,3 +1,6 @@
+"use client";
+import Link from "next/link";
+import Image from "next/image";
 import "./styles.css";
 
 const Product = () => {
@@ -65,9 +68,12 @@ const Product = () => {
         </div>
 
         <div className="product-image-container">
-          <img
-            src="/logos/logo.png"
+          <Image
+            src="/vitamins/beta_carotene.png"
             alt="Product Bottle"
+            width={400}
+            height={600}
+            priority
             className="product-image"
           />
         </div>
@@ -85,7 +91,9 @@ const Product = () => {
         </div>
       </div>
 
-      <button className="enhance-button">Enhance Your Mind</button>
+      <Link href="/vitamins">
+        <button className="enhance-button">Enhance Your Mind</button>
+      </Link>
     </div>
   );
 };

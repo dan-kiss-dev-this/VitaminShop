@@ -1,4 +1,5 @@
 import "./styles.css";
+import Link from "next/link";
 
 const Features = () => {
   const supplements = [
@@ -7,24 +8,28 @@ const Features = () => {
       description:
         "Essential fatty acids that support brain health and cardiovascular wellness while reducing inflammation.",
       image: "/vitamins/fish_oil.png",
+      slug: "omega-3-dha-epa",
     },
     {
       name: "Bone Broth",
       description:
         "Rich in collagen and minerals that support joint health, gut healing, and healthy skin.",
       image: "/vitamins/bone_broth.png",
+      slug: "bone-broth",
     },
     {
       name: "Vitamin K",
       description:
         "Essential fat-soluble vitamin crucial for blood clotting, bone health, and calcium regulation.",
       image: "/vitamins/vitamin_k.png",
+      slug: "vitamin-k",
     },
     {
       name: "Elderberry",
       description:
         "Immune-supporting berry rich in antioxidants that may help reduce cold and flu symptoms.",
       image: "/vitamins/elderberry.png",
+      slug: "elderberry",
     },
   ];
 
@@ -40,7 +45,11 @@ const Features = () => {
 
       <div className="features-grid">
         {supplements.map((supplement, index) => (
-          <div key={index} className="feature-card">
+          <Link
+            key={index}
+            href={`/vitamins/${supplement.slug}`}
+            className="feature-card"
+          >
             <div className="feature-content">
               <h3 className="feature-name">{supplement.name}</h3>
               <p className="feature-description">{supplement.description}</p>
@@ -48,17 +57,13 @@ const Features = () => {
             <div className="feature-image">
               <img src={supplement.image} alt={supplement.name} />
             </div>
-          </div>
+          </Link>
         ))}
       </div>
 
-      <div className="scroll-indicator">
-        <span className="scroll-arrow left">←</span>
-        <span className="scroll-text">scroll</span>
-        <span className="scroll-arrow right">→</span>
-      </div>
-
-      <button className="cta-button">Reclaim Your Brain</button>
+      <Link href="/vitamins" className="cta-button">
+        Reclaim Your Brain
+      </Link>
     </div>
   );
 };
