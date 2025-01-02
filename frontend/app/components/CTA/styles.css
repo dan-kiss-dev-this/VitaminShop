@@ -1,0 +1,147 @@
+/* styles.css */
+.cta-container {
+  background: #fff;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 30px;
+  width: 100%;
+}
+
+.gradient-border {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  position: relative;
+  border-radius: 16px;
+  padding: 1px;
+  background: linear-gradient(135deg, #ffd700, #ff6b6b, #4ecdc4);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.cta-content {
+  background: white;
+  border-radius: 15px;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.cta-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cta-text h2 {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+}
+
+.cta-text p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.signup-form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.input-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.email-input {
+  flex: 1;
+  padding: 16px 24px;
+  font-size: 1rem;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.email-input:focus {
+  outline: none;
+  border-color: #4ecdc4;
+  box-shadow: 0 0 0 4px rgba(78, 205, 196, 0.1);
+}
+
+.signup-button {
+  padding: 0 32px;
+  background: linear-gradient(135deg, #ff6b6b, #ffd700);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.signup-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 107, 107, 0.2);
+}
+
+.signup-button:active {
+  transform: translateY(0);
+}
+
+.success-message {
+  color: #2e7d32;
+  background: rgba(46, 125, 50, 0.1);
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cta-content {
+    padding: 40px 24px;
+  }
+
+  .cta-text h2 {
+    font-size: 2rem;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  .signup-button {
+    width: 100%;
+    padding: 16px 24px;
+  }
+
+  .email-input {
+    width: 100%;
+  }
+}
