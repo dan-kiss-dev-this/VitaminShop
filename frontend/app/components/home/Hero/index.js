@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-left">
             <div className="hero-badge">
-              <span>🌿 Your Trusted Wellness Guide</span>
+              <span>🌿 Your Trusted Vitamin Guide</span>
             </div>
 
             <h1>

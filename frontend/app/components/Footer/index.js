@@ -5,54 +5,69 @@ const Footer = () => {
     shop: {
       title: "Shop",
       links: [
-        "All Products",
-        "Best Sellers",
-        "New Arrivals",
-        "Bundles & Kits",
-        "Subscribe & Save",
+        { label: "All Products", url: "/vitamins" },
+        { label: "Best Sellers", url: "/shop/best-sellers" },
+        { label: "New Arrivals", url: "/shop/new-arrivals" },
+        { label: "Bundles & Kits", url: "/shop/bundles" },
+        { label: "Subscribe & Save", url: "/shop/subscribe" },
       ],
     },
     categories: {
       title: "Categories",
       links: [
-        "Vitamins & Minerals",
-        "Nootropics",
-        "Immune Support",
-        "Energy & Performance",
-        "Sleep & Recovery",
+        { label: "Vitamins & Minerals", url: "/category/vitamins-minerals" },
+        { label: "Nootropics", url: "/category/nootropics" },
+        { label: "Immune Support", url: "/category/immune-support" },
+        { label: "Energy & Performance", url: "/category/energy-performance" },
+        { label: "Sleep & Recovery", url: "/category/sleep-recovery" },
       ],
     },
     learn: {
       title: "Learn",
       links: [
-        "Blog",
-        "Research",
-        "Supplement Guide",
-        "Ingredient Library",
-        "Health Quiz",
+        { label: "Blog", url: "/blog" },
+        { label: "Research", url: "/research" },
+        { label: "Supplement Guide", url: "/supplement-guide" },
+        { label: "Ingredient Library", url: "/ingredients" },
+        { label: "Health Quiz", url: "/health-quiz" },
       ],
     },
     company: {
       title: "Company",
       links: [
-        "About Us",
-        "Our Story",
-        "Sustainability",
-        "Quality Testing",
-        "Careers",
+        { label: "About Us", url: "/about" },
+        { label: "Our Story", url: "/our-story" },
+        { label: "Sustainability", url: "/sustainability" },
+        { label: "Quality Testing", url: "/quality" },
+        { label: "Careers", url: "/careers" },
       ],
     },
     support: {
       title: "Support",
       links: [
-        "Contact Us",
-        "FAQ",
-        "Shipping Info",
-        "Return Policy",
-        "Privacy Policy",
+        { label: "Contact Us", url: "/contact" },
+        { label: "FAQ", url: "/faq" },
+        { label: "Shipping Info", url: "/shipping" },
+        { label: "Return Policy", url: "/returns" },
+        { label: "Privacy Policy", url: "/privacy" },
       ],
     },
   };
+
+  const socialLinks = [
+    { label: "Facebook", url: "https://facebook.com/vitaminshop", icon: "FB" },
+    {
+      label: "Instagram",
+      url: "https://instagram.com/vitaminshop",
+      icon: "IG",
+    },
+    { label: "Twitter", url: "https://twitter.com/vitaminshop", icon: "TW" },
+    {
+      label: "LinkedIn",
+      url: "https://linkedin.com/company/vitaminshop",
+      icon: "LI",
+    },
+  ];
 
   return (
     <footer className="footer">
@@ -65,18 +80,17 @@ const Footer = () => {
             supplements.
           </p>
           <div className="social-links">
-            <a href="#" aria-label="Facebook">
-              <span>FB</span>
-            </a>
-            <a href="#" aria-label="Instagram">
-              <span>IG</span>
-            </a>
-            <a href="#" aria-label="Twitter">
-              <span>TW</span>
-            </a>
-            <a href="#" aria-label="LinkedIn">
-              <span>LI</span>
-            </a>
+            {socialLinks.map(({ label, url, icon }) => (
+              <a
+                key={label}
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+              >
+                <span>{icon}</span>
+              </a>
+            ))}
           </div>
         </div>
 
@@ -85,9 +99,9 @@ const Footer = () => {
             <div key={key} className="footer-section">
               <h4 className="section-title">{section.title}</h4>
               <ul>
-                {section.links.map((link, index) => (
-                  <li key={index}>
-                    <a href="#">{link}</a>
+                {section.links.map(({ label, url }) => (
+                  <li key={label}>
+                    <a href={url}>{label}</a>
                   </li>
                 ))}
               </ul>
@@ -99,10 +113,10 @@ const Footer = () => {
       <div className="footer-bottom">
         <p className="copyright">© 2025 Vitamin Shop. All rights reserved.</p>
         <div className="legal-links">
-          <a href="#">Terms of Service</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Cookie Policy</a>
-          <a href="#">Accessibility</a>
+          <a href="/terms">Terms of Service</a>
+          <a href="/privacy">Privacy Policy</a>
+          <a href="/cookies">Cookie Policy</a>
+          <a href="/accessibility">Accessibility</a>
         </div>
       </div>
     </footer>

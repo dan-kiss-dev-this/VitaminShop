@@ -10,8 +10,11 @@ const Banner = ({ type = "top" }) => {
     ),
     small: (
       <p className="banner-text">
-        <strong>Subscribe & save</strong> up to 45%. Choose subscription instead
-        of one time payment and <strong>save up to $51.</strong>
+        <strong>Get Expert Vitamin Insights</strong> delivered to your inbox.
+        Join our community and discover personalized supplement recommendations.{" "}
+        <a href=".cta-container" className="smooth-scroll">
+          <strong>Sign up now for free guidance →</strong>
+        </a>
       </p>
     ),
     large: (
