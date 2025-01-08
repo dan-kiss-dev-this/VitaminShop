@@ -1,0 +1,105 @@
+.banner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Top Banner */
+.top-banner {
+  background: linear-gradient(90deg, #2196f3 0%, #00e5c9 50%, #2196f3 100%);
+  padding: 0.75rem;
+}
+
+.top-banner .banner-text {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Small Banner */
+.small-banner {
+  background: linear-gradient(90deg, #ffd700 0%, #ffa07a 100%);
+  border-top: 1px solid #030303;
+  border-bottom: 1px solid #030303;
+  padding: 1rem;
+}
+
+.small-banner .banner-text {
+  color: #333;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Large Banner */
+.large-banner {
+  background: linear-gradient(90deg, #ffb6c1 0%, #f7e5a3 50%, #98fb98 100%);
+  padding: 3rem 1rem;
+  border-top: 2px solid #030303;
+  border-bottom: 2px solid #030303;
+}
+
+.banner-quote {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.quote-text {
+  font-size: 1.7rem;
+  font-style: italic;
+  color: #030303;
+  margin-bottom: 1.5rem;
+  font-family: serif;
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.author-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.author-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.author-name {
+  font-size: 1.1rem;
+  margin-left: 8px;
+  color: #222;
+}
+
+/* Waves */
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 120px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.wave-left {
+  left: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 60'%3E%3Cpath d='M0 30 C30 30, 60 45, 120 30' stroke='%234A90E2' fill='none' stroke-width='2'/%3E%3C/svg%3E");
+}
+
+.wave-right {
+  right: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 60'%3E%3Cpath d='M0 30 C60 15, 90 30, 120 30' stroke='%234A90E2' fill='none' stroke-width='2'/%3E%3C/svg%3E");
+}

@@ -74,10 +74,6 @@ project.fragment.lock.json
 # Rider files
 .idea/
 
-# Lock Files
-package-lock.json
-yarn.lock
-
 # Git-specific
 *.patch
 *.diff
