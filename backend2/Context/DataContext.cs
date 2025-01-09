@@ -13,6 +13,8 @@ namespace backend2.Context
 
         // you add in the models based on what is in the database
         public DbSet<User> Users { get; set; }
+        //To add countries and associate users to them use the Country DbSet below
+        //public DbSet<Country> Countries { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

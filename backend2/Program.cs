@@ -1,5 +1,7 @@
 using backend2;
 using backend2.Context;
+using backend2.Interfaces;
+using backend2.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -11,6 +13,7 @@ builder.Services.AddControllers();
 
 // add seed
 builder.Services.AddTransient<Seed>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
