@@ -3,7 +3,7 @@ using backend2.Context;
 using backend2.Interfaces;
 using backend2.Repository;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+//using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -9,6 +9,7 @@ namespace backend2.Helper
         public MappingProfiles()
         {
             CreateMap<User, UserDto>();
+            CreateMap<Pokemon, PokemonDto>();
         }
     }
 }
