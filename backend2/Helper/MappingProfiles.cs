@@ -10,6 +10,7 @@ namespace backend2.Helper
         {
             CreateMap<User, UserDto>();
             CreateMap<Pokemon, PokemonDto>();
+            CreateMap<Category, CategoryDto>();
         }
     }
 }
