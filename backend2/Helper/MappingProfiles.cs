@@ -11,6 +11,9 @@ namespace backend2.Helper
             CreateMap<User, UserDto>();
             CreateMap<Pokemon, PokemonDto>();
             CreateMap<Category, CategoryDto>();
+
+            // to create pokemon via http post
+            CreateMap<PokemonDto, Pokemon>();
         }
     }
 }

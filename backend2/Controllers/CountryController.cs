@@ -35,7 +35,7 @@ namespace backend2.Controllers
             return Ok(country);
         }
 
-        [HttpGet("country/{ownerId}")]
+        [HttpGet("owner/{ownerId}")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Country))]
         [ProducesResponseType(400)]
         public IActionResult GetCountryByOwner(int ownerId)

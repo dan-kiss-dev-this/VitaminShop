@@ -47,5 +47,40 @@ namespace backend2.Repository
             return _context.Pokemon.Any(p => p.Id == pokeId);
         }
 
+        public bool CreatePokemon(int ownerId, int categoryId, Pokemon pokemon)
+        {
+            var ownerEntity = _context.Owners.Where(o => o.Id == ownerId).FirstOrDefault();
+            var categoryEntity = _context.Categories.Where(c => c.Id == categoryId).FirstOrDefault();
+
+            // to make PokemonOwner and PokemonCategory we use items above this is needed for the join table relationships
+
+            var pokemonOwner = new PokemonOwner()
+            {
+                Owner = ownerEntity,
+                Pokemon = pokemon,
+            };
+
+            _context.Add(pokemonOwner);
+
+            var pokemonCategory = new PokemonCategory()
+            {
+                Pokemon = pokemon,
+                Category = categoryEntity,
+            };
+
+            _context.Add(pokemonOwner);
+
+            _context.Add(pokemonCategory);
+
+            _context.Add(pokemon);
+
+            return Save();
+        }
+
+        public bool Save()
+        {
+            var saved = _context.SaveChanges();
+            return saved > 0 ? true : false;
+        }
     }
 }
